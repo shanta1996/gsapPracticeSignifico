@@ -41,3 +41,12 @@ body[theme='dsalmon'] .section{
     background-color: var(--salmon);
     color: white;
 }
+
+.listElem:hover .bluelayer{
+    display: block;
+   height: 100%;
+}
+.listElem:hover{
+    color: white;
+   
+}
