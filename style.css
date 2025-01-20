@@ -1,0 +1,43 @@
+
+:root{
+    --salmon:rgb(250, 167, 131);
+    --black:#000;
+    --white:#fff;
+    --cyan:rgb(177, 223, 223);
+    --dcyan:#80becc;
+    --dsalmon:#532321;
+}
+body[theme='cyan']{
+    background-color: var(--cyan);
+}
+body[theme='cyan'] .section{
+    color: var(--black);
+}
+body[theme='black']{
+    background-color: var(--black);
+}
+body[theme='black'] .section{
+    color: var(--white);
+}
+/* body[theme='red']{
+    background-color: red;
+} */
+body[theme='salmon']{
+    background-color: var(--salmon);
+}
+body[theme='white']{
+    background-color: var(--white);
+}
+body[theme='white'] .section{
+    color: var(--black);
+}
+body[theme='dsalmon']{
+    background-color: var(--dsalmon);
+}
+body[theme='dsalmon'] .section{
+    color: var(--white);
+}
+*::selection {
+    background-color: var(--salmon);
+    color: white;
+}
