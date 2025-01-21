@@ -9,15 +9,16 @@
   </head>
   <body theme="white">
     <div class="w-full">
-      <div class="home section h-screen w-full relative">
-        <div
+      <div class="home section h-[200vh] w-full relative">
+        <div class="w-full sticky top-0 left-0">
+          <div
           class="btmText text-white absolute font-medium bottom-[7%] z-[4] left-[5%] w-[13%]"
         >
           We build big ideas. Software. Apps. Tools. For real people. Real
           lives.
         </div>
         <div style="--clip:100%"
-          class=" imgDiv bg-black h-screen w-full absolute top-0 left-0 z-[3]"
+          class=" imageDiv  bg-black h-screen w-full absolute top-0 left-0 z-[3]"
         >
           <img
             src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d34831b9_placeholder.webp"
@@ -35,11 +36,21 @@
           </div>
 
           <div
-            class="absolute w-[90%] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2"
+            class="backLayer absolute scale-[1] w-[90%] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2"
           >
-            <div
-              class="row w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-1/2"
-            >
+            <div class="row lft w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-2/3" >
+              <div class="elem flex items-center gap-4">
+                <h1 class="font-semibold text-6xl">empathetic</h1>
+                <div
+                  class="imgDiv h-[30px] w-[30px] mt-5 bg-yellow-200 rounded-full overflow-hidden"
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
               <div class="elem flex items-center gap-4">
                 <h1 class="font-semibold text-6xl">empathetic</h1>
                 <div
@@ -149,9 +160,8 @@
                 </div>
               </div>
             </div>
-            <div
-              class="row w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-1/3"
-            >
+            <div class="row rgt w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-1/3"
+ >
               <div class="elem flex items-center gap-4">
                 <h1 class="font-semibold text-6xl">empathetic</h1>
                 <div
@@ -261,9 +271,19 @@
                 </div>
               </div>
             </div>
-            <div
-              class="row w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-2/3"
-            >
+            <div class="row lft w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-2/3">
+              <div class="elem flex items-center gap-4">
+                <h1 class="font-semibold text-6xl">empathetic</h1>
+                <div
+                  class="imgDiv h-[30px] w-[30px] mt-5 bg-yellow-300 rounded-full overflow-hidden"
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
               <div class="elem flex items-center gap-4">
                 <h1 class="font-semibold text-6xl">empathetic</h1>
                 <div
@@ -373,9 +393,31 @@
                 </div>
               </div>
             </div>
-            <div
-              class="row w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-1/2"
-            >
+            <div class="row rgt w-full p-1 flex items-center gap-4 whitespace-nowrap -translate-x-1/3">
+              <div class="elem flex items-center gap-4">
+                <h1 class="font-semibold text-6xl">empathetic</h1>
+                <div
+                  class="imgDiv h-[30px] w-[30px] mt-5 bg-yellow-300 rounded-full overflow-hidden"
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="elem flex items-center gap-4">
+                <h1 class="font-semibold text-6xl">empathetic</h1>
+                <div
+                  class="imgDiv h-[30px] w-[30px] mt-5 bg-yellow-300 rounded-full overflow-hidden"
+                >
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
               <div class="elem flex items-center gap-4">
                 <h1 class="font-semibold text-6xl">empathetic</h1>
                 <div
@@ -487,11 +529,12 @@
             </div>
           </div>
         </div>
+        </div>
+       
       </div>
     </div>
 
-    <div
-      class="craft section w-full px-10 py-4 flex items-start justify-between gap-10 mt-[100px] relative"
+    <div class="craft section w-full px-10 py-4 flex items-start justify-between gap-10 mt-[100px] relative"
     >
       <div class="ltext w-[40%] sticky left-0 top-0">
         <p class="text-xl leading-[30px] font-regular">
@@ -510,13 +553,12 @@
           </div>
         </div>
       </div>
-      <div class="cards bg-red-300 w-1/2 h-[200px]"></div>
+      <div class="cards text-5xl bg-red-300 w-1/2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti alias quae nobis tenetur e quisquam ducimus reiciendis nostrum repellat? Voluptatem, est, laborum ex aliquid sint inventore repellat consequuntur quibusdam quo, tempora mollitia a.</div>
     </div>
 
     <div class="real section w-full overflow-hidden">
-      <div class="cont h-[100vh] relative">
-        <div
-          class="slides w-full h-[100vh] flex sticky left-0 top-0 ">
+      <div class="cont h-[400vh] relative">
+        <div class="slides w-full h-[100vh] flex sticky left-0 top-0 ">
           <div class="slide h-screen w-full flex-shrink-0 flex items-center justify-center">
             <div class="capitalize text-5xl leading-[60px] ">
               <h1>real talk,</h1>
@@ -526,8 +568,7 @@
                 <img src="https://i.pinimg.com/236x/ff/1e/4d/ff1e4d2a0fc1e39f4ef5303e9108b269.jpg" class="h-full w-full object-cover" alt="">
             </div>
           </div>
-          <div
-            class="slide bg-teal- h-screen w-full  flex-shrink-0 border-2 flex   items-center justify-center relative"
+          <div class="slide bg-teal- h-screen w-full  flex-shrink-0 border-2 flex   items-center justify-center relative"
           >
           <div class="img1 z-[3] absolute top-[46%] left-1/3 -translate-x-[200px] translate-y-[80px] h-[150px] w-[150px] rounded-full overflow-hidden">
             <img src="https://i.pinimg.com/236x/df/c6/88/dfc688928881af680fc664e578485a31.jpg" class="h-full w-full object-cover" alt="">
@@ -547,8 +588,7 @@
           </div>
 
         </div>
-          <div
-            class="slide h-screen w-full bg-yellow-200 flex-shrink-0 border-2 flex items-center justify-center relative"
+          <div class="slide h-screen w-full flex-shrink-0 border-2 flex items-center justify-center relative"
           >
           <div class="img1 z-[3] absolute top-[46%] left-1/3 -translate-x-[200px] translate-y-[80px] h-[150px] w-[150px] rounded-full overflow-hidden">
             <img src="https://media.istockphoto.com/id/1178775481/vector/service-tools-icon-isolated-on-white-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=VoGBYuv5vEW_Zbt2KIqcj2-sfEp21FGUlbZaq6QRfYY=" class="h-full w-full object-cover" alt="">
@@ -568,8 +608,7 @@
             <h3 class="capitalize text-4xl text-black">expert women in tech</h3>
           </div>
         </div>
-        <div
-        class="slide bg-teal- h-screen w-full  flex-shrink-0 border-2 flex   items-center justify-center relative"
+        <div class="slide bg-teal- h-screen w-full  flex-shrink-0 border-2 flex   items-center justify-center relative"
       >
       <div class="img1 z-[3] absolute top-[46%] left-1/3 -translate-x-[200px] translate-y-[80px] h-[150px] w-[150px] rounded-full overflow-hidden">
         <img src="https://i.pinimg.com/236x/df/c6/88/dfc688928881af680fc664e578485a31.jpg" class="h-full w-full object-cover" alt="">
@@ -602,6 +641,7 @@
                 </div>
                 <h3 class="">CEO</h3>
                </div>
+               <div class="bg-red-400 h-[100px] w-[100px] rounded-full top-0 absolute"></div>
                <div class="bluelayer absolute bg-blue-800 left-0 top-0 z-[2]  h-0 w-full duration-200 ease-linear"></div>
             </div>
             <div class="listElem w-full  px-[50px] text-3xl border-b-[1px] border-black py-[30px] relative">
@@ -616,8 +656,11 @@
             </div>
         </div>
     </div>
+
+
+    <!-- <div class="text-9xl leading-[200px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quas assumenda, eos sunt repellendus sapiente reprehenderit deleniti, eius necessitatibus consequatur ab nam, molestias rem et soluta laborum aut quibusdam. Consequatur!</div> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

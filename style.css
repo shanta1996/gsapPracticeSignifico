@@ -1,4 +1,4 @@
-.imgDiv{
+.imageDiv{
     clip-path: circle(var(--clip) at 50% 50%);
 }
 :root{
