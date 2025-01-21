@@ -1,4 +1,6 @@
-
+.imgDiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
 :root{
     --salmon:rgb(250, 167, 131);
     --black:#000;
