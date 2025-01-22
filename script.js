@@ -49,7 +49,23 @@ const realPageAnimation=()=>{
     })
 }
 
+// document.querySelectorAll('.listElem').forEach((e)=>{
+//     e.addEventListener('mousemove',(dets)=>{
+// gsap.to(this.querySelector(".picture"),{
+//     opacity:1
+// })
+//     })
+//     e.addEventListener('mouseleave',(dets)=>{
 
+//     })
+// })
 
+document.querySelectorAll(".listElem").forEach(function(e){
+e.addEventListener('mousemove',function(details){
+    gsap.to(this.querySelectorAll('.picture'),{
+        opacity:1
+    })
+})
+})
 homePageAnimation()
 realPageAnimation()

@@ -44,11 +44,11 @@ body[theme='dsalmon'] .section{
     color: white;
 }
 
-.listElem:hover .bluelayer{
+/* .listElem:hover .bluelayer{
     display: block;
    height: 100%;
 }
 .listElem:hover{
     color: white;
    
-}
+} */
